@@ -1,0 +1,57 @@
+
+.Task5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel {
+    width: 70%;
+    height: 50%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    border: 1px solid #ccc;
+    display: flex;
+    
+}
+.slide {
+    min-width: 25%;
+    padding: 2.5%; 
+    background: #f9f9f9;
+    border-right: 1px solid #ddd;
+    font-size: 13px;
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    text-align: center;
+}
+.slide img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background: #e0e0e0;
+}
+.slide p {
+    margin: 0;
+}
+.carousel::-webkit-scrollbar {
+    height: 6px;
+}
+.carousel::-webkit-scrollbar-track {
+    background: #ccc;
+}
+.carousel::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 3px;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background: #e0e0e0;
+}

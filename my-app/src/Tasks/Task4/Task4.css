@@ -1,0 +1,26 @@
+.Task4 { 
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  background-color: #1d1d3f;;
+}
+
+.logo {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.svg-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.svg-wrapper svg {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+}

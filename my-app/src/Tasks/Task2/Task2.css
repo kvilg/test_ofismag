@@ -1,0 +1,180 @@
+
+.Task2{
+    width: 50%;
+    margin: 5% auto;
+
+}
+
+.form-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 2%;
+}
+
+.form-logo {
+    font-size: 30px;
+    text-align: end;
+}
+
+.form-help-logo {
+    font-size: 14px;
+    text-align: end;
+}
+
+.form {
+    padding: 3% 0%;
+    background-color: #FFFFFF;
+}
+
+.form-fp-section {
+    padding: 10px 0%;
+}
+
+.form-fp-logo {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    width: 100%;
+    
+}
+.fp-logo-text{
+    width: 60%;
+    font-size: 20px;
+    margin-right: -10px;
+}
+
+.form-name {
+    display: flex;
+    padding: 10px 0;
+}
+
+.form-name-text {
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-name-input {
+    width: 30%;
+}
+
+.form-color {
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-color-text {
+    width: 40%;
+    text-align: right;
+   margin-right: 10px;
+}
+
+.form-color-input {
+    
+}
+
+.form-se-section{
+    background-color: #fffbc5;
+    padding: 10px 0;
+}
+
+
+
+.form-se-section {
+
+}
+
+.form-se-logo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fp-logo-text {
+    width: 60%;
+    padding: 10px 0;
+}
+
+.form-coment {
+    display: flex;
+    padding: 10px 0;
+}
+
+.form-coment-name {
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-se-textarea {
+    width: 30%;
+    white-space: pre-line;
+}
+
+.input-checbox{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-tr-section input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+.form-tr-section input[type="checkbox"]:checked::after {
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.form-tr-section{
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.fp{
+
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: auto;
+    margin-right: -7px;
+}
+
+
+.se{
+    margin-right: -7px;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: auto;
+}
+
+
+
+.input-checbox-2{
+    top: 0;
+}
+
+.form-btn{
+    padding: 10px 30px;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    border: 0px solid;
+    background-color: #9962ff;
+    border-radius: 5px;
+    color: #FFFFFF;
+}

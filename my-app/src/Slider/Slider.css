@@ -1,0 +1,56 @@
+.slider{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-slider{
+    position: absolute;
+    display: flex;
+    flex: 1;
+    will-change: transform;
+    width: 100%;
+    height: 100%;
+}
+
+.item-slider{
+    background-color: #bbbbbb;
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left-btn-slider{
+    left: 0;
+}
+
+.right-btn-slider{
+    right: 0;
+}
+
+.btn{
+    margin: 0px 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 10%;
+    background: #1b1b1bd2;
+    
+    border: 1px solid #d4d4d4;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+
+
