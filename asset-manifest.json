@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test_ofismag/static/css/main.b564206c.css",
-    "main.js": "/test_ofismag/static/js/main.7c70340e.js",
+    "main.js": "/test_ofismag/static/js/main.fe24a230.js",
     "static/js/453.fd2f0c4a.chunk.js": "/test_ofismag/static/js/453.fd2f0c4a.chunk.js",
     "index.html": "/test_ofismag/index.html",
     "main.b564206c.css.map": "/test_ofismag/static/css/main.b564206c.css.map",
-    "main.7c70340e.js.map": "/test_ofismag/static/js/main.7c70340e.js.map",
+    "main.fe24a230.js.map": "/test_ofismag/static/js/main.fe24a230.js.map",
     "453.fd2f0c4a.chunk.js.map": "/test_ofismag/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b564206c.css",
-    "static/js/main.7c70340e.js"
+    "static/js/main.fe24a230.js"
   ]
 }
